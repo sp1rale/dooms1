@@ -1,7 +1,5 @@
 number = int(input('Введіть число'))
-if number % 2 == 0:
-    print(f'{number}- парне число')
+if number % 7 == 0:
+    print(f'{number}- Number is a multiple')
 else:
-    print(f'{number}- непарне число')
-
-
+    print(f'{number}-  Number is not a multiple')
